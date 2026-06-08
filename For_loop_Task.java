@@ -25,6 +25,7 @@ public class For_loop_Task {
 		for(int natural = 1 ; natural<=10 ; ++natural) {
 			System.out.print(natural+",");
 			}
+		System.out.println();
 		System.out.println("---------------------------------------------");
 		
 //		3. Write a Java program to find the sum of the first 10 natural numbers.
@@ -125,8 +126,9 @@ public class For_loop_Task {
 			System.out.println();	
 		}	
 		System.out.println("---------------------------------------------");
-
-//		10. 
+		
+		
+//		10. Half Pyramid Patten
 		
 		for(int i = 1; i<=5;i++){
 			for(int j = 1; j <= i;j++) {
@@ -136,7 +138,7 @@ public class For_loop_Task {
 		}	
 		System.out.println("---------------------------------------------");
 		
-//		11.
+//		11.Inverted Half pyramid Patten
 		
 		for(int i = 1; i<=5;i++) {
 			for(int j = 5; j >= i;j--) {
@@ -147,7 +149,7 @@ public class For_loop_Task {
 		System.out.println("---------------------------------------------");
 			
 		
-//		12. 
+//		12. Pyramid patten
 		
 		for(int i = 1;i<=5;i++) {
 		for(int j = 5;j>=i;j--) {
@@ -181,14 +183,58 @@ public class For_loop_Task {
 		System.out.println("---------------------------------------------");
 		
 		
+//		14. hallow inverted half pyramid
+		
+		int in = 6; 
 
+        for (int i = in; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                if (i == in || j == 1 || j == i) {
+                    System.out.print("*"+" ");
+                } else {
+                    System.out.print(" "+" ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println("---------------------------------------------");
+        
+//        15. inverted full pyramid patten
+        
+        int R = 6;
 
+        for (int i = R; i >= 1; i--) {
+            for (int j = 1; j <= R - i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= i; k++) {
+                System.out.print("*"+" ");
+            }
+            System.out.println();
+        }
+        System.out.println("---------------------------------------------");
+		
+//        16.Hallow Full Pyramid Patten
+        
+        int  py = 6; 
 
-
-
+        for (int i = 1; i <= py; i++) {
+            for (int j = 1; j <= py - i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= i; k++) {
+                if (k == 1 || k == i || i == py) {
+                    System.out.print("*"+" ");
+                } else {
+                    System.out.print(" "+" ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println("---------------------------------------------");
+        
+		
 		
 
-
-		
 	}
 }
