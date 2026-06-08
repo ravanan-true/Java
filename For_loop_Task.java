@@ -125,9 +125,8 @@ public class For_loop_Task {
 			System.out.println();	
 		}	
 		System.out.println("---------------------------------------------");
-		}
-		
-		
+
+
 		
 	}
 }
