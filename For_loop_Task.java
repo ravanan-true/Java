@@ -126,6 +126,68 @@ public class For_loop_Task {
 		}	
 		System.out.println("---------------------------------------------");
 
+//		10. 
+		
+		for(int i = 1; i<=5;i++){
+			for(int j = 1; j <= i;j++) {
+				System.out.print("*"+" ");
+		}
+			System.out.println();
+		}	
+		System.out.println("---------------------------------------------");
+		
+//		11.
+		
+		for(int i = 1; i<=5;i++) {
+			for(int j = 5; j >= i;j--) {
+				System.out.print("#"+" ");
+			}
+			System.out.println();	
+		}			
+		System.out.println("---------------------------------------------");
+			
+		
+//		12. 
+		
+		for(int i = 1;i<=5;i++) {
+		for(int j = 5;j>=i;j--) {
+			System.out.print(" "+" ");
+		}
+		for(int j = 1; j <= i;j++) {
+			System.out.print("*"+" ");
+		}
+		for(int j = 1; j <= i-1;j++) {
+			System.out.print("*"+" ");
+		}
+		System.out.println();
+	}
+		System.out.println("---------------------------------------------");
+		
+
+//		13. Cross Patten
+	
+		
+		for(int i = 1; i<=5;i++) {
+			for(int j = 1; j <= 5;j++) {
+				if(i==j || i+j == 6) {
+					System.out.print("*"+" ");
+				}
+				else {
+					System.out.print(" "+" ");
+				}
+			}
+			System.out.println();	
+		}		
+		System.out.println("---------------------------------------------");
+		
+		
+
+
+
+
+
+		
+
 
 		
 	}
